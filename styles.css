@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 50px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Відступ між кнопками */
+}
+
+.button {
+    background-color: #170101; /* колір кнопки */
+    border-color: #6b06f9; /* рамка кнопки */
+    color: #03fa55; /* колір тексту кнопки */
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0); /* тінь */
+    min-height: 40px; /* розмір кнопки */
+    min-width: 220px; /* розмір кнопки */
+    border-radius: 10px; /* круглі краї */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #f00e19; /* колір кнопки */
+    border-color: #13c2ae; /* рамка кнопки */
+    color: #031509; /* колір тексту кнопки */
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0); /* тінь */
+    min-height: 40px; /* розмір кнопки */
+    min-width: 220px; /* розмір кнопки */
+    border-radius: 10px; /* круглі краї */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button1:hover {
+    background-color: #002ead; /* при наведені на кнопку */
+    transition: 0.7s; /* час з яким буде реагувати */
+}
+
+.button:focus,
+.button1:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #000000;
+}
+
+.button:active,
+.button1:active {
+    background-color: #ffbf00; /* при натиску на кнопку */
+}

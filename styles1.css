@@ -1,0 +1,17 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 50px;
+}
+#textInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #6b06f9;
+    border-radius: 10px;
+}
